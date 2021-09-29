@@ -1,0 +1,129 @@
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 36px;
+  background-color: #a69c77;
+  font-size: 15px;
+  line-height: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+  }
+  li{
+  float: left;
+  margin: 10px;
+  padding: 0;
+  height: 10px;
+  }
+  
+  a{
+  display: block;
+  padding: 0 28px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+  }
+  a:hover{
+  background-color: rgb(255, 255, 255);
+  
+  }
+  .active a{
+  background-color: rgb(201, 201, 201);
+  }
+  img.right{
+    height: 30px;
+    width: 90px;
+    float: right;
+    }
+    img{
+      height: 300px;
+      width: 700px;
+      align-self: auto;
+      
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      video{
+       width: 890px; 
+       height: 350px;
+      }
+      a.style{
+        color: #d6d6d6;
+        width: fit-content;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+      }
+      a.style:hover{
+        background-color: rgb(170, 170, 170);
+      }
+      a.google{
+     text-decoration: none;
+     color: #1e90ff;
+     width: fit-content;
+     height: 25px;
+     font-size: 20px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display: block;
+     margin: 20px;
+      }
+      .lol{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      /* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+a.center:hover{
+  background-color: transparent;
+}
+p.boo{
+  color: rgb(225, 242, 245);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: fit-content;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input{
+  width: fit-content;
+  height: 50px;
+  color: #666;
+}
+form.new{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #666;
+  border: floralwhite;
+}
